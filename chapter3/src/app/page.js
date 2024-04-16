@@ -1,9 +1,15 @@
-import Image from "next/image";
+export default async function Home() {
+  const res = await fetch("http://localhost:3000/api/blog/posts")
+  const posts = await res.json()
+  // console.log(posts)
 
-export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      Siddharth
+      {posts.data.map((post) => (
+          <div key={post.id}>
+            <h1>{post.name}</h1>
+          </div>
+        ))}
     </main>
   );
 }
