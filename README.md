@@ -16,9 +16,11 @@ chapter 2 : Data Fetching
 
 chapter 3 : Backend
             (Create API similar to what we do in Express)
+            
             Create a folder "api" inside "app" folder.
 
 chapter 4 : Mongo DB (Without Server Action)
+
         a. npm i mongoose
         
         Note : Option "b" and "c" are for initialising mongoose connection using env. 
