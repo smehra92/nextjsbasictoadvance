@@ -11,7 +11,9 @@ siddharthmehra~$npx create-next-app@latest
     Would you like to customize the default import alias (@/*)? … No
 
 chapter 1 : Basic
+
 chapter 2 : Data Fetching
+
 chapter 3 : Backend
             (Create API similar to what we do in Express)
             Create a folder "api" inside "app" folder.
