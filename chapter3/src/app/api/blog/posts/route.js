@@ -10,6 +10,10 @@ import {NextResponse} from "next/server"
 export const GET = async (req) => {
     const res = await fetch("https://jsonplaceholder.typicode.com/users")
     const users = await res.json()
-
+    
     return NextResponse.json({"data" : users})
 } 
+
+
+
+//http://localhost:3000/api/blog/posts

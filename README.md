@@ -12,9 +12,12 @@ siddharthmehra~$npx create-next-app@latest
 
 chapter 1 : Basic
 
-chapter 2 : Data Fetching
+chapter 2 : Data Fetching + Caching + LoadingUI + NotFound
 
 chapter 3 : Backend
+            (a.) allcrud (All CRUD Operations without Database) 
+
+            (b.) Blog and Products.
             (Create API similar to what we do in Express)
             
             Create a folder "api" inside "app" folder.
@@ -64,3 +67,9 @@ chapter 4 : Mongo DB (Without Server Action)
 
 
 chapter 5 : Mongo DB (Server Action) + CRUD
+
+
+
+
+Note : page.jsx : For returning html or markup.
+       route.js : For handling HTTP request (For this we use route handlers).

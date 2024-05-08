@@ -7,3 +7,10 @@ export default function Home() {
     </main>
   );
 }
+
+
+//Caching in fetch(no-store, revalidate, ..).  Bydefault Nextjs will cache the data.
+//Creating "loading" file in app folder for getting loading UI.
+//Creating "not-found" file in app folder for getting not found error.
+
+//Note : These both pages can be created in specific folders or routes as well.
