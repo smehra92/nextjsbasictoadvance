@@ -15,6 +15,7 @@ chapter 1 : Basic
 chapter 2 : Data Fetching + Caching + LoadingUI + NotFound
 
 chapter 3 : Backend
+            
             (a.) allcrud (All CRUD Operations without Database) 
 
             (b.) Blog and Products.
@@ -22,7 +23,7 @@ chapter 3 : Backend
             
             Create a folder "api" inside "app" folder.
 
-chapter 4 : Mongo DB (Without Server Action)
+chapter 4 : Mongo DB (Without Server Action)  (For chapter4 -- "b" section )
 
         a. npm i mongoose
         
@@ -66,10 +67,13 @@ chapter 4 : Mongo DB (Without Server Action)
                 export default Post    
 
 
-chapter 5 : Mongo DB (Server Action) + CRUD
+chapter 5 : Mongo DB (Server Action) + CRUD    (For chapter4 -- "b" section )
 
 
+chapter 6 : Prisma + MySQL + grip     (For chapter4 -- "a" section)
 
 
-Note : page.jsx : For returning html or markup.
-       route.js : For handling HTTP request (For this we use route handlers).
+Note : 
+        page.jsx : For returning html or markup.
+
+        route.js : For handling HTTP request (For this we use route handlers).
