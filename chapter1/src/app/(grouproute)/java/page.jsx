@@ -1,6 +1,6 @@
 const Java = () => {
   return (
-    <div>Java </div>
+    <div>Group Route </div>
   )
 }
 

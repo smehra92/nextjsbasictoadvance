@@ -18,4 +18,4 @@ export default LearnUseRouter
 
 
 
-//Its a programmatic way for "Link" navigation ,Since is a tag and sometimes we arent able to use it then we can use "useRouter". 
+//Its a programmatic way for "Link" navigation ,Since Link is a tag and sometimes we arent able to use it then we can use "useRouter". 
