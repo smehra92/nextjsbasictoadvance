@@ -20,17 +20,17 @@ const UpdateDataServerAction = ({ post }) => {
                 type="text"
                 name="title"
                 defaultValue={post.title}
-                className="text-black p-2 bg-gray-200" />
+                className="text-black p-2 bg-gray-200 rounded" />
             <br /><br />
             Body: <input
                 type="text"
                 name="body"
                 defaultValue={post.body}
-                className="text-black p-2 bg-gray-200" />
+                className="text-black p-2 bg-gray-200 rounded" />
             <br /><br />
             <button
                 type="submit"
-                className="p-2 bg-blue-600">Update</button>
+                className="p-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">Update</button>
         </form>
     )
 }

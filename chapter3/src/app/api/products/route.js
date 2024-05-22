@@ -30,5 +30,5 @@ export async function POST(req){
     //Request Body
     const res = await req.json()
     console.log(res)
-    return NextResponse.json({msg : "Hello, This is POST request (See in POSTMAN)"}, {status:201})
+    return NextResponse.json({msg : "Hello, This is POST request (See in POSTMAN) : " + res.name}, {status:201})
 }

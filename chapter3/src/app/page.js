@@ -13,3 +13,6 @@ export default async function Home() {
     </main>
   );
 }
+
+//Here we can see that instead of calling the 3rd party api directly, we are
+//taking the data from "localhost" which is being initiated on the server.

@@ -1,6 +1,6 @@
 //3rd party api call from server
 //In "Server component" we are calling the 3rd party "PAID / SECRET" api,
-//and then just the data is sent to the "Front end" i.e. HomePage
+//and then just the data is sent to the "Front end" i.e. HomePage i.e. root "page.js".
 //Eliminating the risk of data leaking.
 //Frontend is requesting backend and Backend is requesting JSONPlaceHolder api.
 

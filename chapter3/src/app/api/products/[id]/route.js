@@ -4,7 +4,7 @@ export const GET = async (req, { params }) => {
     // console.log(req)
     console.log(params.id)
 
-    return NextResponse.json({msg : "Success for Dynamic Route"}, {status : "200"})
+    return NextResponse.json({msg : `Success for Product's Dynamic Route : ${params.id}`}, {status : "200"})
 }
 
 
