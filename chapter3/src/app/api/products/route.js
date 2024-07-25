@@ -11,7 +11,7 @@ export async function GET(req){
     // console.log(requestHeaders)
 
 
-    //3. URL Query Parameters.
+    //3. URL Query Parameters (http://localhost:3000/api/products?Name=Shanu).
     // const {searchParams} = new URL(req.url)
     // console.log(searchParams)
 
